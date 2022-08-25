@@ -4,7 +4,7 @@ cmnt='userinput'
 git add flow.sh
 
 # commit changes
-echo-n "please enter a comment: "
+echo -n "please enter a comment: "
 read cmnt
 
 git commit -m cmnt
