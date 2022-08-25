@@ -7,7 +7,7 @@ git add flow.sh
 echo-n "please enter a comment: "
 read cmnt
 
-git commit -m "edited flow.sh"
+git commit -m cmnt
 
 # push changes
 git push -u origin main
